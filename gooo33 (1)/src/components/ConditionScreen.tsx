@@ -38,7 +38,7 @@ export default function ConditionScreen({
   >('idle');
 
   const handleCopyPromo = () => {
-    navigator.clipboard.writeText('E1111');
+    navigator.clipboard.writeText('A1111');
     setCopiedPromo(true);
     setTimeout(() => setCopiedPromo(false), 2000);
   };
