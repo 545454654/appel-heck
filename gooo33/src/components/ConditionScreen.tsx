@@ -38,7 +38,7 @@ export default function ConditionScreen({
   >('idle');
 
   const handleCopyPromo = () => {
-    navigator.clipboard.writeText('E1111');
+    navigator.clipboard.writeText('A1111');
     setCopiedPromo(true);
     setTimeout(() => setCopiedPromo(false), 2000);
   };
@@ -265,7 +265,7 @@ export default function ConditionScreen({
                     <div className="relative group">
                       <div className="p-1 glass rounded-2xl flex flex-row-reverse items-center gap-2 relative z-0 border-green-500/20 bg-black/40">
                         <div className="flex-1 py-4 pr-6 font-mono text-2xl font-black tracking-[0.25em] text-green-400 text-right drop-shadow-[0_0_10px_rgba(34,197,94,0.5)]">
-                          E1111
+                          A1111
                         </div>
                         <button
                           onClick={handleCopyPromo}
@@ -286,7 +286,7 @@ export default function ConditionScreen({
                             exit={{ opacity: 0, scale: 0.9, y: 10 }}
                             className="absolute inset-0 z-10 flex items-center justify-center bg-green-600 rounded-2xl text-white font-black text-sm font-cairo shadow-[0_0_20px_rgba(34,197,94,0.7)]"
                           >
-                            تم نسخ البروموكود E1111 بنجاح
+                            تم نسخ البروموكود A1111 بنجاح
                           </motion.div>
                         )}
                       </AnimatePresence>
